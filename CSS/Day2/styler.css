@@ -8,6 +8,8 @@ h1 {
   width: 200px;
   padding: 40px;
   margin: 20px;
+  display: inline-block;
+  box-sizing: border-box;
 }
 .first{
   /* height: 200px;
@@ -17,5 +19,14 @@ h1 {
   margin-left: 20px;
   margin-right: 30px;
   /* Inline element margin aur padding only horizontal way me apply hone deta hai*/
+  /* display: inline; */
+
 }
 
+h2{
+  display: inline-block;
+  height: 200px;
+  width: 250px;
+  background-color: yellow;
+  box-sizing: content-box;
+}
