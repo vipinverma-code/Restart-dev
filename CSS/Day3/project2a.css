@@ -1,0 +1,38 @@
+#container{
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+    position: relative;
+}
+
+.box{
+    box-sizing: border-box;
+    background-color: blue;
+}
+
+.first, .third{
+    width: 85px;
+    height: 85px;
+    background-color: blue;
+
+}
+
+.third{
+    position:absolute;
+    bottom: 0px;
+}
+.second, .fourth{
+    height: 85px;
+    width: 175px;
+    position: absolute;
+}
+
+.second{
+    top: 0px;
+    right: 0px;
+}
+
+.fourth{
+    bottom: 0px;
+    right: 0px;
+}
