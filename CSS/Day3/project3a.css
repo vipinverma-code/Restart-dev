@@ -1,0 +1,33 @@
+#conatiner{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    background-color: red;
+}
+
+.first{
+    height: 50px;
+    width: 400px;
+    position: absolute;
+    
+}
+
+.second{
+   
+    height: 100px;
+    width: 400px;
+    background-color: blue;
+    position: relative;
+    top: 50px;
+    
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 150px;
+   
+}
