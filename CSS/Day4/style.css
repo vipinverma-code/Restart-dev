@@ -1,0 +1,33 @@
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+
+}
+
+.first{
+    background-color: orange;
+}
+.second{
+    background-color: green;
+}
+
+.third{
+    background-color: red;
+}
+
+.fourth{
+    background-color: chartreuse ;
+}
+
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    /* flex-direction: column-reverse; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+
+}
