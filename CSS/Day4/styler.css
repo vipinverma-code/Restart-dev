@@ -33,7 +33,7 @@ h1{
 
 label{
     display: block;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     padding: 5px;
     font-size: 25px;
     font-weight: 600;
@@ -46,7 +46,12 @@ input{
 }
 
 
-
+button{
+    font-size: 25px;
+    width: 70%;
+    background-color: rgb(224, 210, 237);
+    font-weight: bold;
+}
 
 
 
