@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    padding-left: 120px;
+    border-radius: 20px;
+
+}
+body{
+    background-color: rgb(204, 225, 242);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+  
+    padding-left: 40px;
+    box-sizing: border-box;
+
+}
+
+h1{
+   
+    padding: 10px;
+    margin-bottom: 10px;
+    color: rgb(132, 91, 197);
+   
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+input{
+    padding: 5px;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
