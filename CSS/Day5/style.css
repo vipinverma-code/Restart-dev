@@ -6,19 +6,16 @@ body{
     width: 500px;
     background-color: aquamarine;
     display: flex;
-
 }
 .box{
     height: 300px;
     width: 400px;
     margin: 10px;
 }
-
 .first{
     background-color: orange;
     
 }
-
 .second{
     display: flex;
     flex-direction: column;
@@ -29,6 +26,3 @@ body{
     height: 140px;
     background-color: red;
 }
-
-
-
