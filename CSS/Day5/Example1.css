@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+ 
+}
+.container {
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  height: 800px;
+  width: 800px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  gap: 20px;
+  
+}
+
+.Box {
+  background-color: rgb(144, 144, 223);
+
+}
+
+.header {
+  color: azure;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.sidebar {
+  color: azure;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.content1 {
+  color: azure;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.footer {
+  color: azure;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
