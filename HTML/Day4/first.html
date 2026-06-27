@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re</title>
+</head>
+<body>
+    <h1>University Registration Form</h1>
+    <br>
+    <p>Please fill out the form below to register.</p>
+    <hr/>
+    <form>
+     <h2>Personal Details</h2>
+        <label for="name">First Name:</label>
+        <input type="text" name="userfirstname" placeholder="e.g., Arjun" id="name">
+        <br>
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lastname" placeholder="e.g., Kumar" id="lname"> 
+        <br>
+        <br>
+        <label for="date">Date of Birth:</label>
+        <input type="date" name="dob" id="date">
+        <br>
+        <br>
+        <h3>Gender:</h3>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="Male">
+        <br>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <br>
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other">
+
+        <h3>Upload Your Photo:</h3>
+        <input type="file" name="file">
+        <br><br>
+        <hr>
+        <form>
+        <h2>Contact Information</h2>
+        <label for="email">Email Address:</label>
+        <input type="email" name="useremail" id="email" placeholder="you@example.com">
+        <br><br>
+        <label for="phone">Phone</label>
+        <input type="number" name="contact number" id="phone" placeholder="e.g., 9876543210">
+        <br><br>
+        <label for="address">Mailing Address:</label>
+        <br><br>
+        <textarea name="Address" id="address" cols="10" rows="6" placeholder="Street Address, City, State, ZIP Code"></textarea>
+        <br><br>
+        <hr>
+        <form>
+            <h2>Academic Information</h2>
+            <label for="course">Select Your Course:</label>
+            <select name="course" id="course">
+                <option value="cse">CSE</option>
+                <option value="IT">IT</option>
+                <option value="ME">ME</option>
+                <option value="CE">CE</option>
+            </select>
+            <br><br>
+            <h3>Extracircular Interests:</h3>
+            <label for="Sports">Sports</label>
+            <input type="checkbox" name="interest" id="Sports" value="Sports">
+            <br><br>
+            <label for="Music & Arts">Music & Arts</label>
+            <input type="checkbox" name="interest" id="Music & Arts" value="Music & Arts">
+            <br><br>
+            <label for="Technology Clubs">Technology Clubs</label>
+            <input type="checkbox" name="interest" id="Technology Clubs" value="Technology Clubs">
+            <br><br>
+            <label for="Volunteering">Volunteering</label>
+            <input type="checkbox" name="interest" id="Volunteering" value="Volunteering">
+            <br><br>
+            <hr>
+            <form>
+                <h2>Create Your Account</h2>
+                <label for="password">Create a Password:</label>
+                <input type="password" name="password" id="password" >
+                <br><br>
+                <label for="question">Security Question:</label>
+                <select name="question" id="question">
+                    <option value="What was your first pet's name?">"What was your first pet's name?"</option>
+                      <option value="What was your first teacher name?">"What was your first teacher name?"</option>   
+                </select>
+                <br><br>
+                <label for="answer">Security Answer:</label>
+                <input type="text" name="security answer" id="answer">
+                <br><br>
+                <input type="checkbox" name="tick the option" id="checkbox" value="I agree to the Terms and Conditions.">
+                <label for="checkbox">I agree to the Terms and Conditions.</label>
+                <br><br>
+                <hr>
+                <button type="submit">Register</button>
+                 <button type="reset">Clear Form</button>
+                 <hr>
+            </form>
+
+        </form>
+        </form>
+   
+    </form>
+
+</body>
+</html>

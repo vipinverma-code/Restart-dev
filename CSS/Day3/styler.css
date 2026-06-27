@@ -1,0 +1,50 @@
+h2 {
+  /* background-color: orange;
+  position: relative;
+  left: 20px; */
+  /* top: 50px; */
+}
+
+h3 {
+  /* background-color: rgb(44, 19, 81);
+  position: fixed; */
+  /* top: 0px; */
+}
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+h4{
+  background-color: brown;
+  position: sticky;
+  top: 0px;
+  z-index: 10px;
+}
+
+p{
+    position: absolute;
+    left: 50px;
+    
+}
+
+.box1{
+    height:200px;
+    width:200px;
+    background:red;
+    position:absolute;
+    top:50px;
+    left:500px;
+    z-index:2;
+}
+
+.box2{
+    height:200px;
+    width:200px;
+    background:blue;
+    position:absolute;
+    top: 40px;
+    left: 350px;
+
+    z-index:1;
+}

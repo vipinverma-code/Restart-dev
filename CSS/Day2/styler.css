@@ -1,0 +1,32 @@
+/* span {
+  color: red;
+  background-color: pink;
+} */
+h1 {
+  background-color: rgb(0, 217, 255);
+  height: 200px;
+  width: 200px;
+  padding: 40px;
+  margin: 20px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.first{
+  /* height: 200px;
+  width: 200px; */
+  /* ye nhi apply hote hai */
+  padding-left: 40px;
+  margin-left: 20px;
+  margin-right: 30px;
+  /* Inline element margin aur padding only horizontal way me apply hone deta hai*/
+  /* display: inline; */
+
+}
+
+h2{
+  display: inline-block;
+  height: 200px;
+  width: 250px;
+  background-color: yellow;
+  box-sizing: content-box;
+}
