@@ -1,16 +1,14 @@
-* {
+*{
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 }
-
 body {
   background-color: #1e1e1e;
   font-family: sans-serif;
   color: #a0a0a0;
   line-height: 1.6;
 }
-
 .main-container {
   display: grid;
   max-width: 1200px;
@@ -19,7 +17,6 @@ body {
   padding-top: 40px;
   margin: auto;
 }
-
 .sidebar {
   height: 90vh;
   background-color: #2a2a2a;
@@ -27,14 +24,12 @@ body {
   border-radius: 16px;
   padding: 40px;
 }
-
 .main-content {
   height: 90vh;
   background-color: #2a2a2a;
   border: 1px solid #3a3a3a;
   border-radius: 16px;
 }
-
 /* profile section */
 .profile{
   text-align: center;
@@ -46,14 +41,12 @@ body {
     border-radius: 50%;
     border: 1px solid #3a3a3a;
 }
-
 .profile h2{
     font-size: 1.5rem;
     font-weight: 700px;
     margin-top: 20px;
     color: #e0e0e0;
 }
-
 .profile p{
   background-color: #1e1e1e;
   padding: 5px 15px;
@@ -65,7 +58,6 @@ body {
   margin-top: 10px;
 }
 /* contact section */
-
 .contact{
   margin-top:30px;
   border-top: 2px solid #3a3a3a;
@@ -99,4 +91,8 @@ body {
   margin-left: 5px;
   filter: grayscale(1) invert(0.7);
   transition: filter 0.3s ease;
- }
+}
+
+.social img:hover{
+  filter: grayscale(0) invert(0);
+}
