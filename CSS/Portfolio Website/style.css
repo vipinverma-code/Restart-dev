@@ -29,6 +29,7 @@ body {
   background-color: #2a2a2a;
   border: 1px solid #3a3a3a;
   border-radius: 16px;
+  padding: 40px;
 }
 /* profile section */
 .profile{
@@ -95,4 +96,57 @@ body {
 
 .social img:hover{
   filter: grayscale(0) invert(0);
+}
+
+/* main-content */
+/* navigation */
+
+#navigation{
+  border-bottom: 2px solid #3a3a3a;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+ 
+}
+
+nav a{
+  text-decoration: none;
+  color: #a0a0a0;
+  font-weight: 500px;
+  transition: color 0.3s ease;
+}
+
+.active, nav a:hover{
+  color: #FFBF00;
+}
+
+.main-content{
+  padding-top: 25px;
+ 
+}
+
+/* about me */
+
+.heading{
+  color: #e0e0e0;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.line{
+  width: 40px;
+  height: 5px;
+  background-color: #FFBF00;
+  margin-bottom: 15px;
+}
+
+.content{
+  text-align: justify;
+  color: #a0a0a0;
 }
