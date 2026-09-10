@@ -8,7 +8,17 @@ function Sum(){
      
     }
     const totalSum= calculateSum();
+    console.log("Sum render");
     console.log(totalSum);
+
+    return(
+        <>
+        <h1>This is the math libraray</h1>
+        <h2>Sum:{totalSum}</h2>
+        </>
+    )
+
+
 
 
 }
