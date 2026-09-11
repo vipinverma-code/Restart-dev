@@ -7,19 +7,14 @@ function Sum(){
         return sum;
      
     }
-    const totalSum= calculateSum();
+    const total= calculateSum();
     console.log("Sum render");
-    console.log(totalSum);
-
+    console.log(total);
     return(
         <>
         <h1>This is the math libraray</h1>
-        <h2>Sum:{totalSum}</h2>
+        <h2>Sum:{total}</h2>
         </>
     )
-
-
-
-
 }
 export default Sum;
